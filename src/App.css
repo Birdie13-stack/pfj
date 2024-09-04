@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  background-color: var(--bg-grey);
+  padding: 1rem 5rem 1rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  width: 15rem;
+}
+
+nav {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 40px;
+  color: white;
+}
+
+#green {
+  color: var(--green);
+}
+
+nav button {
+  background-color: var(--green);
+  color: black;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.hero {
+  background-color: var(--bg-grey);
+  padding-left: 5rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 7rem;
+}
+
+.hero span {
+  background-color: var(--green);
+  padding: 5px;
+  border-radius: 5px;
+  /* margin: 10px 0; */
+}
+
+h1 {
+  color: white;
+  margin: 30px 0;
+}
+
+.hero p {
+  color: #919191;
+  margin-bottom: 40px;
+}
+
+.hero .text {
+  margin-top: -200px;
+}
+
+.hero .text a {
+  color: var(--green);
+}
+
+.hero img {
+  width: 400px;
+}
+
+.hero .images {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.images .vector {
+  width: 200px;
+  margin-top: 50px;
+  margin-bottom: -50px;
+  margin-left: 200px;
+}
+
+.about {
+  background-color: var(--bg-black);
+  padding-top: 40px;
+  padding-bottom: 80px;
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about p {
+  color: #9f9f9f;
+  font-size: 0.8rem;
+}
+
+.left {
+  width: 35%;
+}
+
+.left div {
+  background-color: var(--bg-grey);
+  padding: 10px 30px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.left p {
+}
+
+.left div h2 {
+  color: white;
+}
+
+.left img {
+  float: right;
+}
+
+.intro {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 300px;
+  margin: 30px 0;
+}
+
+.right {
+  width: 35%;
+  margin-top: -15px;
+}
+
+.right p {
+  margin: 20px 0;
+}
+
+.lists {
+  display: flex;
+  color: #9f9f9f;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: -30px;
+  font-size: 0.8rem;
+}
+
+.lists li {
+  margin-bottom: 10px;
+}
