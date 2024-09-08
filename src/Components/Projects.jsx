@@ -1,20 +1,32 @@
 import React from "react";
 import { projects } from "../Database/Database";
+import film from "../assets/film.png";
 
 function Projects() {
   return (
-    <div>
+    <div className="projects">
       <h2>Latest Projects</h2>
 
-      {projects.map((project) => {
+      {projects.map((project) => (
         <div className="project-card">
           <img src={project.image} alt="" />
 
-          <p>{project.name}</p>
+          <div>
+            <p style={{ fontWeight: "bold" }}>{project.name}</p>
+            <p>{project.desc}</p>
 
-          <p>Hola!</p>
-        </div>;
-      })}
+            {project.tags.map((tag) => (
+              <div className="tag">{tag}</div>
+            ))}
+            <br />
+
+            <button className="demo">
+              <img src={film} alt="" />
+              View Demo
+            </button>
+          </div>
+        </div>
+      ))}
     </div>
   );
 }

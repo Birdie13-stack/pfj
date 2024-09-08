@@ -40,7 +40,7 @@ function About() {
 
         <div className="lists">
           <ul>
-            <li>HTML % CSS</li>
+            <li>HTML & CSS</li>
             <li>Bootstrap</li>
             <li>Electron Js</li>
             <li>React Native</li>
