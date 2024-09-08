@@ -1,6 +1,5 @@
 import React from "react";
 import heroimg from "../assets/heroimg.png";
-import vector from "../assets/Vector 1.png";
 
 function Hero() {
   return (
@@ -21,7 +20,6 @@ function Hero() {
       </section>
       <section className="images">
         <img src={heroimg} alt="" />
-        <img src={vector} alt="" className="vector" />
       </section>
     </div>
   );
