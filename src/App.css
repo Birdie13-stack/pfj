@@ -210,6 +210,11 @@ h1 {
   gap: 20px;
 }
 
+.footer a {
+  color: #9f9f9f;
+  font-size: 13px;
+}
+
 .contact {
   /* width: 35%; */
   width: 35%;
@@ -222,11 +227,6 @@ h1 {
   gap: 4px;
 }
 
-.footer a {
-  color: #9f9f9f;
-  font-size: 13px;
-}
-
 @media screen and (max-width: 1024px) {
   .contact {
     width: 50%;
@@ -237,7 +237,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 920px) {
   .contact {
     width: 65%;
   }
@@ -275,21 +275,31 @@ h1 {
     font-size: 12px;
   }
 
-  @media screen and (max-width: 430px) {
-    nav {
-      /* flex-direction: column; */
-      /* width: 20%; */
-      /* max-width: fit-content; */
+  @media screen and (max-width: 600px) {
+    .hero img {
+      display: none;
     }
 
     .hero {
       padding-top: 7rem;
     }
 
-    .hero .text {
-      margin-left: -2rem;
+    .footer > div {
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
     }
 
+    .contact {
+      width: 100%;
+    }
+
+    .project-card {
+      padding: 5px 20px 5px 0;
+    }
+  }
+
+  @media screen and (max-width: 430px) {
     header {
       justify-content: space-between;
       /* width: 70%; */
@@ -298,6 +308,14 @@ h1 {
     header img {
       width: 10rem;
       margin-left: -4rem;
+    }
+
+    .hero {
+      padding-top: 7rem;
+    }
+
+    .hero .text {
+      margin-left: -2rem;
     }
 
     .hero img {
@@ -319,12 +337,38 @@ h1 {
     .contact {
       width: 100%;
     }
+
+    .projects {
+      padding: 5px 0;
+    }
+
+    .projects h2 {
+      font-weight: 800;
+      font-size: 1.6rem;
+    }
+
+    .footer > div {
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      /* margin: 10px auto; */
+    }
   }
 
-  .footer > div {
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-    /* margin: 10px auto; */
+  @media screen and (max-width: 350px) {
+    header img {
+      width: 10rem;
+      margin-left: -4rem;
+    }
+
+    nav button {
+      background-color: var(--green);
+      color: black;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 0.7rem;
+      margin-left: -5px;
+    }
   }
 }
