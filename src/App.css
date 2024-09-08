@@ -238,10 +238,6 @@ h1 {
 }
 
 @media screen and (max-width: 920px) {
-  .contact {
-    width: 65%;
-  }
-
   nav a {
     display: none;
   }
@@ -275,100 +271,97 @@ h1 {
     font-size: 12px;
   }
 
-  @media screen and (max-width: 600px) {
-    .hero img {
-      display: none;
-    }
+  .contact {
+    width: 65%;
+  }
+}
 
-    .hero {
-      padding-top: 7rem;
-    }
-
-    .footer > div {
-      flex-wrap: wrap;
-      gap: 10px;
-      justify-content: center;
-    }
-
-    .contact {
-      width: 100%;
-    }
-
-    .project-card {
-      padding: 5px 20px 5px 0;
-    }
+@media screen and (max-width: 600px) {
+  .hero img {
+    display: none;
   }
 
-  @media screen and (max-width: 430px) {
-    header {
-      justify-content: space-between;
-      /* width: 70%; */
-    }
-
-    header img {
-      width: 10rem;
-      margin-left: -4rem;
-    }
-
-    .hero {
-      padding-top: 7rem;
-    }
-
-    .hero .text {
-      margin-left: -2rem;
-    }
-
-    .hero img {
-      display: none;
-    }
-
-    .project-card {
-      flex-direction: column;
-    }
-
-    .project-card > img {
-      margin: 20px 10px 0 10px;
-    }
-
-    .project-card {
-      padding-left: 20px;
-    }
-
-    .contact {
-      width: 100%;
-    }
-
-    .projects {
-      padding: 5px 0;
-    }
-
-    .projects h2 {
-      font-weight: 800;
-      font-size: 1.6rem;
-    }
-
-    .footer > div {
-      flex-wrap: wrap;
-      gap: 15px;
-      justify-content: center;
-      /* margin: 10px auto; */
-    }
+  .hero {
+    padding-top: 7rem;
   }
 
-  @media screen and (max-width: 350px) {
-    header img {
-      width: 10rem;
-      margin-left: -4rem;
-    }
+  .footer > div {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
 
-    nav button {
-      background-color: var(--green);
-      color: black;
-      border: none;
-      padding: 5px 10px;
-      border-radius: 5px;
-      font-size: 0.7rem;
-      margin-left: -5px;
-    }
+  .contact {
+    width: 100%;
+  }
+
+  .project-card {
+    padding: 5px 20px 5px 0;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  header {
+    justify-content: space-between;
+    /* width: 70%; */
+  }
+
+  header img {
+    width: 10rem;
+    margin-left: -4rem;
+  }
+
+  .hero {
+    padding-top: 7rem;
+  }
+
+  .hero .text {
+    margin-left: -2rem;
+  }
+
+  .hero img {
+    display: none;
+  }
+
+  .project-card {
+    flex-direction: column;
+  }
+
+  .project-card > img {
+    margin: 20px 10px 0 10px;
+  }
+
+  .project-card {
+    padding-left: 10px;
+  }
+
+  .projects {
+    padding: 5px 0;
+  }
+
+  .projects h2 {
+    font-weight: 800;
+    font-size: 1.6rem;
+  }
+
+  /* .contact {
+    width: 100%;
+  } */
+}
+
+@media screen and (max-width: 350px) {
+  header img {
+    width: 10rem;
+    margin-left: -4rem;
+  }
+
+  nav button {
+    background-color: var(--green);
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    margin-left: -5px;
   }
 }
