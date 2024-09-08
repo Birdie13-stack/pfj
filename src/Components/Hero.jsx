@@ -18,9 +18,7 @@ function Hero() {
 
         <a href="">LET'S CHAT!</a>
       </section>
-      <section className="images">
-        <img src={heroimg} alt="" />
-      </section>
+      <img src={heroimg} alt="" />
     </div>
   );
 }
