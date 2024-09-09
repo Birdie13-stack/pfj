@@ -16,7 +16,9 @@ function Projects() {
             <p>{project.desc}</p>
 
             {project.tags.map((tag) => (
+              // <div className="tags">
               <div className="tag">{tag}</div>
+              // </div>
             ))}
             <br />
 

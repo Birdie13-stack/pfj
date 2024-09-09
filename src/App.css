@@ -174,6 +174,11 @@ h1 {
   margin: 25px 0;
 }
 
+.tags {
+  /* display: flex; */
+  /* flex-direction: column-reverse; */
+}
+
 .tag {
   background-color: #707070;
   margin: 30px 20px 30px 0;
@@ -300,6 +305,37 @@ h1 {
   }
 }
 
+@media screen and (max-width: 530px) {
+  header img {
+    width: 10rem;
+    margin-left: -3rem;
+  }
+
+  nav button {
+    margin-right: -70px;
+  }
+  .hero {
+    padding-top: 7rem;
+  }
+
+  .project-card {
+    /* padding: 5px 20px 5px 0; */
+    /* padding-left: -200px; */
+    /* width: 98%; */
+  }
+
+  .projects p {
+    font-size: 0.7rem;
+    width: 80%;
+  }
+
+  .footer > div {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 430px) {
   header {
     justify-content: space-between;
@@ -309,6 +345,10 @@ h1 {
   header img {
     width: 10rem;
     margin-left: -4rem;
+  }
+
+  h1 {
+    font-size: 1.3rem;
   }
 
   .hero {
@@ -336,7 +376,7 @@ h1 {
   }
 
   .projects {
-    padding: 5px 0;
+    padding: 5px 0 40px 0;
   }
 
   .projects h2 {

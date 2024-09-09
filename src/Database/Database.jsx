@@ -6,7 +6,7 @@ export const projects = [
     name: "DB Store",
     desc: "DB Store is an online POS application designed to help small businesses effectively manage their sales operations.",
     image: image,
-    tags: ["Flutter", "Firebase", "Flutter", "Firebase"],
+    tags: ["Flutter", "Firebase", "Flutter"],
     link: "https://medium-swart-seven.vercel.app/",
   },
   {
@@ -14,7 +14,7 @@ export const projects = [
     name: "DB Store",
     desc: "DB Store is an online POS application designed to help small businesses effectively manage their sales operations.",
     image: image,
-    tags: ["Flutter", "Firebase", "Flutter", "Firebase"],
+    tags: ["Flutter", "Firebase", "Flutter"],
     link: "https://medium-swart-seven.vercel.app/",
   },
 ];
