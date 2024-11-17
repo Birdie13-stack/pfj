@@ -1,35 +1,30 @@
-import React from "react";
+
 import github from "../assets/github.png";
-import medium from "../assets/medium.png";
 import mail from "../assets/mail.png";
 import phone from "../assets/phone.png";
 import lin from "../assets/lin.png";
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="contact">
       <p>Contact Info</p>
 
       <div className="contact">
         <p>
           <img src={github} alt="" />
-          <a href="">Github</a>
-        </p>
-        <p>
-          <img src={medium} alt="" />
-          <a href="">Medium</a>
+          <a target="_blank" href="https://github.com/dart-josh">Github</a>
         </p>
         <p>
           <img src={mail} alt="" />
-          <a href="joshadework@gmail.com">Email</a>
+          <a href="mailto:joshadework@gmail.com">joshadework@gmail.com</a>
         </p>
         <p>
           <img src={phone} alt="" />
-          <a href="">+2349015153464</a>
+          <a target="_blank" href="https://wa.me/9015153464">+234 (901) 515-3464</a>
         </p>
         <p>
           <img src={lin} alt="" />
-          <a href="">Linkedin</a>
+          <a target="_blank" href="www.linkedin.com/in/adelooye-joshua-3b66b1159">Linkedin</a>
         </p>
       </div>
     </div>

@@ -1,27 +1,26 @@
-import React from "react";
+
 import code from "../assets/code-icon.png";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <section className="left">
         <div>
           <h2>Mobile App</h2>
           <img src={code} alt="" />
-          <p>Mobile App created using Flutter</p>
+          <p>Creating mobile apps using a robust framework  that can run seamlessly across multiple devices.</p>
         </div>
         <div>
-          <h2>Front-end</h2>
+          <h2>Full-Stack Software</h2>
           <img src={code} alt="" />
           <p>
-            Front-end App created using Flutter, context API and Styled
-            Components
+          Developing full-stack applications with clean and scalable code for both client-side user interfaces and server-side logic, managing databases, and integrating different technologies.
           </p>
         </div>
         <div>
           <h2>Desktop App</h2>
           <img src={code} alt="" />
-          <p>Mobile App created using Flutter</p>
+          <p>Using modern technologies to create fast and efficient Desktop software that is both elegant and beautiful.</p>
         </div>
       </section>
       <div className="right">
@@ -30,28 +29,33 @@ function About() {
         <h2 className="intro">Hello! I'm Joshua Adelooye</h2>
 
         <p>
-          I'm a self taught developer passionateg in building responsive,
-          beuatiful and accessible apps using clean and elegant code.
+        I am a self-taught developer who is passionate about creating responsive, visually pleasing, and user-friendly software through the use of clean, sophisticated, and easily maintainable code.
         </p>
 
-        <p>When I'm not behind the screen, I love playing guitar.</p>
+        <p>When I'm not behind the screen, I love learning and trying out new things.</p>
 
-        <p>Here are a few technologies I've been working with lately:</p>
+        <p>Here are a few technologies I work with:</p>
 
         <div className="lists">
           <ul>
+            <li>JavaScript</li>
+            <li>ReactJs</li>
+            <li>Flutter (Dart)</li>
             <li>HTML & CSS</li>
+            <li>Tailwind CSS</li>
             <li>Bootstrap</li>
-            <li>Electron Js</li>
-            <li>React Native</li>
-            <li>Node Js</li>
+            <li>Firebase</li>
           </ul>
           <ul>
-            <li>Sass</li>
-            <li>Javascript</li>
-            <li>React Js</li>
-            <li>Next Js</li>
-            <li>Typescript</li>
+            <li>Node Js</li>
+            <li>MongoDB</li>
+            <li>MySQL</li>
+            <li>Express.js</li>
+            <li>Python</li>
+            <li>PHP</li>
+            <li>C#</li>
+            
+            <li>Git</li>
           </ul>
         </div>
       </div>

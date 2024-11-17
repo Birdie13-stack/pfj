@@ -1,4 +1,3 @@
-import React from "react";
 import heroimg from "../assets/heroimg.png";
 
 function Hero() {
@@ -12,11 +11,10 @@ function Hero() {
         </h1>
 
         <p>
-          I design and code beautiful, simple things. <br /> This is what I love
-          to do.
+        I love bringing brilliant and beautiful ideas to reality.  <br /> It is my passion.
         </p>
 
-        <a href="">LET'S CHAT!</a>
+        <a href="mailto:joshadework@gmail.com">LET'S CHAT!</a>
       </section>
       <img src={heroimg} alt="" />
     </div>
