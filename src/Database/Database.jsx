@@ -1,4 +1,6 @@
 
+import dz_e_store_window from "../assets/projects/Dz_E-Store/windows_app.PNG";
+import dz_e_store_mobile from "../assets/projects/Dz_E-Store/mobile_view.PNG";
 
 import dz_ride_banner from "../assets/projects/dz_ride/logo.png";
 import o3_dispatch_banner from "../assets/projects/o3_dispatch/logo.png";
@@ -29,6 +31,16 @@ import dz_poker_hub_banner from "../assets/projects/dz_poker_hub/backImage.jpg";
 import dz_sports_hub_banner from "../assets/projects/dz_sports_hub/banner.png";
 
 export const projects = [
+  {
+    id: 21,
+    name: "Dz E-Store",
+    desc: "Dz E-Store is a Windows and web-based POS application tailored for small businesses, offering an efficient way to manage sales operations. It provides essential tools for tracking transactions, organizing inventory, and enhancing the overall sales process, making business management smoother and more effective.",
+    image: dz_e_store_window,
+    tags: ["Flutter", "JavaScript", "Node.js", "MongoDB"],
+    // demo_link: "",
+    // github_link: "",
+    images: [dz_e_store_mobile, dz_e_store_window],
+  },
   {
     id: 1,
     name: "Dz Ride",
